@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+	float box[3];
+	int i;
+	for (i = 0; i < 3; i++) {
+		printf("ŽÀ”‚ð“ü—ÍF");
+		scanf("%f", &box[i]);
+	}
+	printf("‡Œv‚Í %.2f \n•½‹Ï‚Í %.2f", box[0] + box[1] + box[2], (box[0] + box[1] + box[2]) / 3);
+}
